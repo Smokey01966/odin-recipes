@@ -8,13 +8,9 @@ body{
 }
 h1{
     font-size: 64px;
-    padding: 10px;
 }
 h2{
     font-size: 58px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 .blackoutline{
     width: max-content;
@@ -22,13 +18,16 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    padding: 5px;
 }
 .content{
-    font-size: 32px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 28px;
+    text-align: left;
 }
 .footer{
     vertical-align: bottom;
+}
+.dishimg{
+    width: 25%;
 }
