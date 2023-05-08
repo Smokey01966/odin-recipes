@@ -1,8 +1,4 @@
 # odin-recipes
-Practice with building a website with just basic HTML
+Practice with building a website with just basic HTML and CSS
 
-May go back and update to store actual recipes and make look better latter in the course
-
-Lessons learned and skills practiced
-
-TBD
+V2 Added in css
