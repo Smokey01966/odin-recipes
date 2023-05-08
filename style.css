@@ -32,5 +32,23 @@ h2{
 .dishimg{
     width: 25%;
     background-color: black;
-    padding: 1%;
+    padding: 2%;
+}
+.recipelink{
+    font-size: 28px;
+    width: 19%;
+    background-color: rgba(0, 0, 0, 0.61);
+    margin-top: 1%;
+    padding-top: 1%;
+}
+.linkimg{
+    width: 80%;
+}
+.links{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1%;
 }
