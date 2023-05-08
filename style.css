@@ -13,13 +13,14 @@ h2{
     font-size: 58px;
 }
 .blackoutline{
-    width: max-content;
+    width: fit-content;
     background-color: rgba(0, 0, 0, 0.61);
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     padding: 5px;
+    max-width: 50%;
 }
 .content{
     font-size: 28px;
@@ -30,4 +31,6 @@ h2{
 }
 .dishimg{
     width: 25%;
+    background-color: black;
+    padding: 1%;
 }
