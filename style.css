@@ -11,7 +11,7 @@ html, body{
     background: url(img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 620px;
+    min-width: min-content;
     background-position-x:center;
     height:max-content;
     min-height: 100%;
@@ -62,9 +62,8 @@ h2{
 }
 .recipelink{
     font-size: 28px;
-    width: 32%;
+    width: 32.66%;
     background-color: rgba(0, 0, 0, 0.61);
-    min-width: 150px;
     color: white;
     height: fit-content;
     margin-bottom: 1%;
