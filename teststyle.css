@@ -83,6 +83,7 @@ a.sidebar{
 .recipe-title{
     font-size: 28px;
     font-weight: 600;
+    margin: 1%;
 }
 
 .left{
@@ -92,6 +93,7 @@ a.sidebar{
 .section-title{
     font-size: 24px;
     font-weight: 300;
+    margin: 1%;
 }
 
 ul.no-deco{
