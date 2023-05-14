@@ -17,11 +17,11 @@ body{
 }
 
 .header{
-    height: 4vw;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1vw;
+    padding: 1vw 2vw;
     font-size: 2vw;
     font-weight: 900;
 }
@@ -111,11 +111,11 @@ img.crop{
 
 .footer{
     background-color: #c25000;
-    height: 4vw;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 1vw;
+    padding: 1vw 1vw;
 }
 
 .underline{
