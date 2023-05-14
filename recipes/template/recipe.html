@@ -4,37 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Name Here</title>
+    <title>RECIPE NAME</title>
     <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
-    <div class="background">
-        <div class="blackoutline">
-            <h1>Recipe Name Here</h1>
-            <img src="img.jpg" class="dishimg" alt="Picture of Recipe Name Here">
-            <button class="homebutton" onclick="window.location.href='../../index.html'">Home</button>
-            <p class="content">
-                Recipe Description Here
-            </p>
-            <h2>Ingredients</h2>
-            <ul class="content">
-                <li>Ingredients Here</li>
-            </ul>
-            <h2>Method</h2>
-            <ol class="content">
+    
+    <div class="header"> 
+        <ul class="no-deco">
+            <li>
+                My Recipes
+            </li>
+        </ul>
+    </div>
+    
+    <div class="body">
+        <div class="sidebar">
+            <ul class="no-deco">
                 <li>
-                    Steps Here
-                </li>
-            </ol>
-            <h2>Notes</h2>
-            <ul class="content">
-                <li>
-                    May not need delete this section if that is the case
+                    <a class="sidebar" href="../../index.html">Home</a>
                 </li>
             </ul>
-            <div class="spacer"></div>
-            <p class="footer">Images Generated Though <a href="https://www.bing.com/images/create?FORM=GDPGLP">Image Creator from Microsoft Bing</a></p>
+        </div>
+
+        <div class="main recipe">    
+            <div class="content recipe">
+                <div class="recipe-title underline">
+                    RECIPE NAME
+                </div>
+                
+                <div class="desc">
+                    <div class="desc-img">
+                        <img src="resources/img/img.jpg" class="desc" alt="Picture of RECIPE NAME">
+                    </div>
+                    
+                    <div class="desc-text left">
+                        Recipe Description Here
+                    </div>
+                </div>
+
+                <div class="instruc">
+                    <div class="ingred">
+                        <div class="section-title underline">
+                            Ingredients
+                        </div>
+        
+                        <ul class="left">
+                            <li>
+                                Ingredients Here
+                            </li>
+                        </ul>        
+                    </div>
+
+                    <div class="method">
+                        <div class="section-title underline">Method</div>
+
+                        <ol class="left">
+                            <li>
+                                Steps here
+                            </li>
+                        </ol>        
+                    </div>
+                </div>
+
+                <div class="section-title underline">
+                    Notes
+                </div>
+
+                <ul class="left">
+                    <li>
+                        May not need delete this section if that is the case
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
+    
+    <div class="footer">
+        <ul class="no-deco">
+            <li>
+                Images Generated Though <a class="underline" href="https://www.bing.com/images/create?FORM=GDPGLP">Image Creator from Microsoft Bing</a>
+            </li>
+            
+            <li>
+                Textures Provided by <a class="underline" href="https://tileable.co">Tileable</a>
+            </li>
+        </ul>
+    </div>  
 </body>
 </html>

@@ -4,35 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>My Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background">
-        <div class="blackoutline">
-            <h1>My Recipes</h1>
-            <div class="links">
-                <button onclick="window.location.href='recipes/sesame-noodle-salad/recipe.html'" class="recipelink">
-                    <img src="recipes/sesame-noodle-salad/img.jpg" class="linkimg" alt="Finished recipe of As Good as it Gets Sesame Noodle Salad">
-                    <br>As Good as it Gets Sesame Noodle Salad
-                </button>
-                <button onclick="window.location.href='recipes/braised-beef-curry/recipe.html'" class="recipelink">
-                    <img src="recipes/braised-beef-curry/img.jpg" class="linkimg" alt="Finished recipe of Braised Beef Curry with Fragrant Spices">
-                    <br>Braised Beef Curry with Fragrant Spices
-                </button>
-                <button onclick="window.location.href='recipes/green-curry/recipe.html'" class="recipelink">
-                    <img src="recipes/green-curry/img.jpg" class="linkimg" alt="Finished recipe of Farm Stand Vegetable Green Curry">
-                    <br>Farm Stand Vegetable Green Curry
-                </button>
-                <button onclick="window.location.href='recipes/chicken-riggies/recipe.html'" class="recipelink">
-                    <img src="recipes/chicken-riggies/img.jpg" class="linkimg" alt="Finished recipe of Grandma's Chicken Riggies">
-                    <br>Grandma's Chicken Riggies
-                </button>
-                <div class="spacer"></div>
+    
+    <div class="header"> 
+        <ul class="no-deco">
+            <li>
+                My Recipes
+            </li>
+        </ul>
+    </div>
+    
+    <div class="body">
+        <div class="sidebar">
+            <ul class="no-deco">
+                <li>
+                    <a class="sidebar" href="testindex.html">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main links">    
+            <div class="content links">
+                <a href="recipes/template/recipe.html">
+                    <img class="crop" src="recipes/template/resources/img/img.jpg" alt="Picture of RECIPE NAME">
+                    <div class="recipe-title">
+                        RECIPE NAME
+                    </div>
+                </a>
             </div>
-            <div class="spacer"></div>
-            <p class="footer">Immages Generated Though <a href="https://www.bing.com/images/create?FORM=GDPGLP">Image Creator from Microsoft Bing</a></p>
         </div>
     </div>
+    
+    <div class="footer">
+        <ul class="no-deco">
+            <li>
+                Images Generated Though <a class="underline" href="https://www.bing.com/images/create?FORM=GDPGLP">Image Creator from Microsoft Bing</a>
+            </li>
+            
+            <li>
+                Textures Provided by <a class="underline" href="https://tileable.co">Tileable</a>
+            </li>
+        </ul>
+    </div>   
 </body>
 </html>
